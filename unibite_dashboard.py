@@ -563,8 +563,7 @@ elif "Summary" in section:
     st.dataframe(styled, use_container_width=True, height=420)
 
     st.info("💡 **Trade-off note:** H9 (Bundle Offers) is the only hypothesis with a mixed impact "
-            "— it raises Avg Ticket (positive) but slightly increases the Food Cost Ratio (negative). "
-            "This kind of realistic tension demonstrates analytical maturity.")
+            "— it raises Avg Ticket (positive) but slightly increases the Food Cost Ratio (negative)")
 
     # ══════════════════════════════════════════════════════════
     # ENRICHED ANALYSIS — 5 additional visualisations
@@ -763,8 +762,6 @@ elif "Summary" in section:
         margin=dict(l=10,r=10,t=20,b=40), showlegend=False,
     )
     st.plotly_chart(fig_l1, use_container_width=True)
-    st.info("**Portfolio balance:** 8 of 10 hypotheses target Income growth; 4 target Cost reduction "
-            "(2 do both). The portfolio is intentionally income-oriented, fitting a growth-stage business.")
 
     # ── ⑥ ROI distribution ───────────────────────────────────
     st.markdown('<div class="section-title">⑥ ROI Distribution Across the Portfolio</div>',
